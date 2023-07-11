@@ -1,0 +1,116 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+a {
+  font-size: 0.8rem;
+}
+
+.presentacion {
+  margin: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.presentacion h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #444;
+}
+
+.trabajadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-repeat: 4px;
+  border: 1px dotted #000;
+  box-sizing: border-box;
+  width: 49.5%;
+}
+
+.foto {
+  border: 1pz solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 20px;
+  width: 170px;
+}
+
+.datos {
+  flex: 1;
+}
+
+.botones {
+  width: 110px;
+}
+
+button {
+  padding: 6px 12px;
+  outline: none;
+  border-radius: 3px;
+  width: 98px;
+  margin: 4px;
+  cursor: pointer;
+}
+.rojo {
+  background-color: #990000;
+  border: 1px solid #990000;
+  color: #fff;
+}
+.rojo:hover {
+  color: #990000;
+  border: 1px solid #990000;
+  background-color: #fff;
+}
+.verde {
+  background-color: #4caf50;
+  border: 1px solid #4caf50;
+  color: #fff;
+}
+.verde:hover {
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  background-color: #fff;
+}
+
+.usuarios {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  margin-top: 12px;
+}
+.nombreUsuario {
+  font-size: 1.04rem;
+  margin-top: 8px;
+}
+.candidatos {
+  margin: 1rem 3rem;
+}
+.btn {
+  background-color: #C778DD;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+}
